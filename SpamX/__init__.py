@@ -10,7 +10,7 @@ import time, os, sys
 
 print("""
      ╒══════════════════════╕
-        Starting Your SpamX 
+      Starting Your InnocentXSpam 
      ╘══════════════════════╛
 """)
 
