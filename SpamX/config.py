@@ -13,15 +13,15 @@ if os.path.exists(".env"):
 # -------------CONFIGS--------------------
 API_ID = int(os.getenv("API_ID", ""))
 if not API_ID:
-   print("SpamX [INFO]: You didn't fill API_ID var!")
+   print("SpamXInnocent [INFO]: You didn't fill API_ID var!")
    sys.exit()
 API_HASH = os.getenv("API_HASH", "")
 if not API_HASH:
-   print("SpamX [INFO]: You didn't fill API_HASH var!")
+   print("SpamXInnocent [INFO]: You didn't fill API_HASH var!")
    sys.exit()
-ALIVE_PIC = os.getenv("ALIVE_PIC", "")
-ALIVE_MSG = os.getenv("ALIVE_MSG", "")
-PING_MSG = os.getenv("PING_MSG", "")
+ALIVE_PIC = os.getenv("ALIVE_PIC", "https://te.legra.ph/file/c691d6a43179fdcfeeda8.jpg")
+ALIVE_MSG = os.getenv("ALIVE_MSG", "ALWAYS ALIVE ONLY MERE MASTER INNOCENT GROUP OWNER")
+PING_MSG = os.getenv("PING_MSG", "PING KYA DEKK RAHE HO PAPA KA BOT HAI BHAI OR UNKI BHENO enjoy kro kabhi na rokega yeh")
 CLIENT = os.getenv("CLIENT", None)
 if not CLIENT:
    print("SpamX [INFO]: You have to fill CLIENT var!")
@@ -49,8 +49,8 @@ auto_re = os.getenv("AUTO_REACT_CHATS", None)
 LOGS_CHANNEL = os.getenv("LOGS_CHANNEL", None)
 if LOGS_CHANNEL:
    if check_logchannel(LOGS_CHANNEL):
-      print("SpamX [INFO]: You Can't Use That Chat As A Log Channel -!")
-      print("SpamX [INFO]: Change Logs Channel Id else Bot Could not be start")
+      print("SpamXInnocent [INFO]: You Can't Use That Chat As A Log Channel -!")
+      print("SpamXInnocent [INFO]: Change Logs Channel Id else Bot Could not be start")
       sys.exit()
     
 HNDLR = os.getenv("HNDLR", None)
